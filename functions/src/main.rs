@@ -1,9 +1,24 @@
 fn main() {
-    println!("Hello, world!");
+    // println!("Hello, world!");
 
-    another_function(5, 6.0);
+    // another_function(5, 6.0);
+    // let x = five();
+
+    // println!("The value of x is: {}", x);
+
+    // let x = plus_one(5);
+
+    // println!("The value of x is: {}", x);
+
+    let number = 3;
+
+    if number < 5 {
+        println!("Condition was true");
+    } else {
+        println!("Condition was false");
+    }
 }
 
-fn another_function(_x: i32, _y: f64) {
-    println!("The value of x is: {}, y is: {}", _x, _y);
-}
+// fn plus_one(x: i32) -> i32 {
+//     x + 1
+// }
